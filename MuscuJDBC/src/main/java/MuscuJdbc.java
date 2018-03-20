@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MuscuJdbc {
 
 public static Scanner scanner = new Scanner(System.in);
-	
+	// testing git push
 public static void ajouter() {
 		
 		System.out.println( " Saisir le nom du nouvel adherent ");
