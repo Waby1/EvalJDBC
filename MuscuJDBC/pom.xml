@@ -20,5 +20,13 @@
         </dependency>
   	
   </dependencies>
-  
+  <build>
+  <resources>
+        <resource>
+            <directory>src/main/java/resources</directory>
+            <filtering>true</filtering>
+        </resource>
+        <!-- you can define here more than one resource -->
+    </resources>
+    </build>
 </project>
