@@ -254,7 +254,7 @@ public static void record() {
 		ResultSet customSet = statement.executeQuery();
 					
 		while ( customSet.next()) {
-			System.out.println( " - Name : " +customSet.getString("nameCustom") + " " + " - Max Bench : " + customSet.getInt("maxBench") + " " + "- Max Squat : " + customSet.getDouble("maxSquat") + " " + "- Month Perf : " + customSet.getInt("datePerf") );
+			System.out.println( " - Name : " +customSet.getString("nameCustom") + " " + " - Max Bench : " + customSet.getInt("maxBench") + " " + "- Max Squat : " + customSet.getDouble("maxSquat") + " " + "- Date Perf : " + customSet.getInt("datePerf") );
 		}
 		
 	} 
@@ -277,8 +277,8 @@ public static void main(String[] args) {
 		 boolean exit = false;
 		 
 		 do {
-			 
-		 System.out.println(" - Menu base de donnée de la salle de Musculation - ");
+	     System.out.println(" ****** Bienvenue sur LARSON ****** ");
+		 System.out.println("      ... Menu Principal ... ");
 		 System.out.println("Tappez 1) - Ajoutez un nouvel adherent -  ");
 		 System.out.println("Tappez 2) - Consultez la liste des adherents -  ");
 		 System.out.println("Tappez 3) - Mettre à jour un adherent -");
